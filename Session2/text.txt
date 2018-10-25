@@ -1,0 +1,22 @@
+1.A Boolean value is either true or false
+ex : 
+>>> 5 == (3 + 2) # Is five equal 5 to the result of 3 + 2?
+True
+>>> 5 == 6
+False
+>>> j = "hel"
+>>> j + "lo" == "hello"
+True
+2.A flowchart is a type of diagram that represents an algorithm, workflow or process.
+3. The block of code following the else statement is executed as the condition present in the if statement is false. A nested if is an if statement that is the target of another if statement. Nested if statements means an if statement inside another if statement.
+Ex : 
+x = 10
+y = 10
+
+if x < y:
+    print("x is less than y")
+else:
+    if x > y:
+        print("x is greater than y")
+    else:
+        print("x and y must be equal")
