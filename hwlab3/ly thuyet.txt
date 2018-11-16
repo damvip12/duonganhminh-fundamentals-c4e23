@@ -1,0 +1,27 @@
+1. Using functions help us write less lines of code and save our time and resources
+2.def name_of_function(arguments) #optional depends on functions which need entry arguments or not
+	lines of code describing the function
+	return arguments	#a function can produce values. In my opinion , when we give input values , we need to return the output ones , which means we have to use return or else the output ones will be delete from the function after the system runs out the block of codes
+3. After defining functions , we can use it normally like those available ones . 
+ex : turtle , random...
+Besides , there are 2 cases corresponding to 2 ways to call/use functions :
+
+Case 1st : Functions have already been defined in the project
+	We call out functions normally
+Case 2nd : Funcions have been defined in other projects
+	There are 2 ways to call out from others :
+		1. from name_of_project import name_of_function
+			in this case , we use functions normally
+		2. import name_of_function
+			in this case , we have to write name_of_project.name_of_function() 
+4. I have already answered about it as the command line next to the 2nd answer above.
+5. In my opinion , the answer is no. The return command itsel just has a mission as to help ouput values survive from being delete by function itself . Basically , I think returning will take the ouput values out from functions , which are indeed to be used 
+6. As what I understand about them , they are numbers which are depended on different situations. Basically , arguments/parameters are the actual values which are called in the functions . 
+Ex : An example about how to use arguments/parameters
+def name_of_function(name_of_parameters/arguments)
+	block_of_codes_describing_how_function_works
+	return parameters/arguments
+name_of_random_list = [name_of_parameters/arguments]
+print(name_of_random_list)
+7. Basically , we can't at default . I think u should change the word "file" into "folder"/"directory" to not mistaking "file" for projects which have different meanings but kinda the same in Vietnamese .
+Anyway , Python just can read others file from the same folder but the packages . If we really need Python to search from other folders , we have to make sure those folders have to contain a __int__.py , which will make Python find that folder as a package . 
